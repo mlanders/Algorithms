@@ -130,7 +130,7 @@ class SLL {
     }
 }
 
-let list = new SLL();
-list.unshift('hello');
-list.unshift('dog');
-console.log(list);
+module.exports = {
+    Node,
+    SLL
+};
